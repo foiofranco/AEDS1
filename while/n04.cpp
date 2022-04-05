@@ -1,5 +1,5 @@
-// Atividade - AEDs | Exercício nº 4;
-// Nome: João Francisco da Silva Franco | Matrícula: 2021008720 | Data: 28/07/2021
+// Atividade - AEDs | ExercÃ­cio nÂº 4;
+// Nome: JoÃ£o Francisco da Silva Franco | MatrÃ­cula: 2021008720 | Data: 28/07/2021
 
 #include <iostream>
 
