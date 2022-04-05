@@ -1,5 +1,5 @@
-// Tendo como base o sal·rio mÌnimo em R$ 500,00, faÁa uma funÁ„o
-// que receba o sal·rio de um cidad„o e calcule o imposto de renda
+// Tendo como base o sal√°rio m√≠nimo em R$ 500,00, fa√ßa uma fun√ß√£o
+// que receba o sal√°rio de um cidad√£o e calcule o imposto de renda
 // a declarar com base nas % tabeladas.
 
 #include <iostream>
