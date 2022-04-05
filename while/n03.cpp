@@ -1,12 +1,12 @@
-// Atividade - AEDs | ExercÌcio n∫ 3;
-// Nome: Jo„o Francisco da Silva Franco | MatrÌcula: 2021008720 | Data: 28/07/2021
+// Atividade - AEDs | Exerc√≠cio n¬∫ 3;
+// Nome: Jo√£o Francisco da Silva Franco | Matr√≠cula: 2021008720 | Data: 28/07/2021
 
 #include <iostream>
 
 using namespace std;
 
 void pesquisa (float salario, int filhos){
-	// Vari·veis:
+	// Vari√°veis:
 	float somasalario = 0, maiorsalario = 0, salariocem = 0, mediasalario = 0, somafilhos = 0, mediafilhos = 0, percentualsalariocem = 0;
 	int habitantes = 0;
 	while (salario >= 0){
@@ -15,26 +15,26 @@ void pesquisa (float salario, int filhos){
 		if (salario >= 0){
 			cout << "Digite o numero de filhos: ";
 			cin >> filhos;
-			// Sal·rio da populaÁ„o:
+			// Sal√°rio da popula√ß√£o:
 			somasalario = somasalario + salario;
 			habitantes++;
-			// Filhos da populaÁ„o:
+			// Filhos da popula√ß√£o:
 			somafilhos = somafilhos + filhos;
-			// Maior sal·rio;
+			// Maior sal√°rio;
 			if (salario > maiorsalario){
 			maiorsalario = salario;
 			}
-			// Pessoas com sal·rio atÈ R$ 100,00:
+			// Pessoas com sal√°rio at√© R$ 100,00:
 			if (salario <= 100){
 			salariocem++;
 			}
 		}		
 	}
-	// MÈdia dos sal·rios da populacao:
+	// M√©dia dos sal√°rios da populacao:
 	mediasalario = somasalario/habitantes;
-	// MÈdia dos filhos da populaÁ„o:
+	// M√©dia dos filhos da popula√ß√£o:
 	mediafilhos = somafilhos/habitantes;
-	// Percentual de pesssoas com o sal·rio atÈ R$ 100,00.
+	// Percentual de pesssoas com o sal√°rio at√© R$ 100,00.
 	percentualsalariocem = (salariocem*100)/habitantes;
 	// Dados:
 	cout << endl << "Dados:" << endl;
@@ -45,10 +45,10 @@ void pesquisa (float salario, int filhos){
 }
 
 int main (){
-	// Vari·veis:
+	// Vari√°veis:
 	float salario = 0;
 	int filhos = 0;
-	// OpÁıes:
+	// Op√ß√µes:
 	cout << "O programa em questao realiza uma pesquisa a servico de um municipio." << endl;
 	cout << "Contendo:" << endl;
 	cout << endl << "- A media dos salarios da populacao." << endl;
@@ -57,7 +57,7 @@ int main (){
 	cout << "- O percentual de pessoas com salario ate' R$ 100,00 da populacao." << endl;
 	cout << endl << "Para obter os dados acima, insira o salario seguido do numero de filhos de cada habitante." << endl;
 	cout << "Para finalizar a operacao e obter os dados, insira um numero negativo." << endl;
-	// FunÁ„o:
+	// Fun√ß√£o:
 	pesquisa(salario, filhos);
 	return 0;
 }
