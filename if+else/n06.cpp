@@ -1,5 +1,5 @@
-// FaÁa uma funÁ„o que receba uma idade e verifique se est·
-// apto a votar ou n„o. Depois chame na funÁ„o main();
+// Fa√ßa uma fun√ß√£o que receba uma idade e verifique se est√°
+// apto a votar ou n√£o. Depois chame na fun√ß√£o main();
 #include <iostream>
 
 using namespace std;
