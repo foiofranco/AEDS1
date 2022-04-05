@@ -1,19 +1,19 @@
-// Atividade - AEDs | Exercício nº 6;
-// Nome: João Francisco da Silva Franco | Matrícula: 2021008720 | Data: 28/07/2021
+// Atividade - AEDs | ExercÃ­cio nÂº 6;
+// Nome: JoÃ£o Francisco da Silva Franco | MatrÃ­cula: 2021008720 | Data: 28/07/2021
 
 #include <iostream>
 
 using namespace std;
 
-// Função:
+// FunÃ§Ã£o:
 void eleicao (int voto){
-	// Variáveis:
+	// VariÃ¡veis:
 	int candidato1 = 0, candidato2 = 0, candidato3 = 0, candidato4 = 0, nulo = 0, branco = 0;
 	do{
-		// Inserção de voto:
+		// InserÃ§Ã£o de voto:
 		cout << "Insira votos: ";
 		cin >> voto;
-		// Opções de voto:
+		// OpÃ§Ãµes de voto:
 		switch (voto){
 			case 1:
 				candidato1++;
@@ -49,7 +49,7 @@ void eleicao (int voto){
 
 int main (){
 	int voto = 0;
-	// Opções de voto:
+	// OpÃ§Ãµes de voto:
 	cout << "O programa em questao tem carater eleitivo." << endl << endl;
 	cout << "- Digite 1 para emitir voto ao candidato 1;" << endl;
 	cout << "- Digite 2 para emitir voto ao candidato 2;" << endl;
@@ -57,7 +57,7 @@ int main (){
 	cout << "- Digite 4 para emitir voto ao candidato 4;" << endl;
 	cout << "- Digite 5 para emitir um voto nulo;" << endl;
 	cout << "- Digite 6 para emitir um voto em branco;" << endl << endl;
-	// Função:
+	// FunÃ§Ã£o:
 	eleicao(voto);
 	return 0;
 }
